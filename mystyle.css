@@ -2,6 +2,8 @@ body, html {
     margin:0;
     padding:0;
     font-size:0;
+    color: rgb(166, 54, 54);
+    
   }
   div {
     display:none;
@@ -10,3 +12,41 @@ body, html {
     width:100vw;
     height:100vh;
   }
+
+ /* Style the buttons */
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 100%; /* Add this line to make the buttons round */
+}
+
+/* Add a hover effect to the buttons */
+button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Style the start button */
+#start-button {
+  background-color: green;
+}
+
+/* Style the stop button */
+#stop-button {
+  background-color: red;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
